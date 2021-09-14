@@ -6,5 +6,4 @@ A proposta do projeto era criar uma home page de loja virtual utilizando HTML e 
 ## Tecnologias Utilizadas
 - HTML
 - CSS
-- JavaScript
 - Bootstrap JS Carousel
