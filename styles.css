@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+   font-family: Nunito;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-itens {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+#menu-itens a {
+    margin: auto 10px;
+    font-family: Nunito;
+    font-size: 13px;
+    text-decoration: none;
+
+    color: #333333;
+}
+
+#procurando-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7A7A7A;;
+}
+
+#procurando-container input,
+#procurando-container input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+#minha-conta {
+    display: flex;
+    align-items: center;
+}
+
+#minha-conta img {
+    margin-right: 10px;
+}
+
+.titulo-container {
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.titulo-container h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+
+.titulo-container .sublinhado {
+    width: 50%;
+    background: #E9BF33;
+    height: 4px;
+    border-radius: 10%;
+}
+
+.produto-container {
+    border-radius: 5px;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.4);
+    height: 353px;
+    width: 216px;
+    overflow: hidden;
+    margin: 0 10px 20px;
+}
+
+.produto-container .tag-desconto {
+    position: relative;
+    height: 80px;
+    width: 100px;
+    left: 160px;
+    top: -34px;
+    background: #F8475F;
+    transform: rotate(45deg);
+    z-index: 100;
+}
+
+.produto-container .texto-desconto {
+    position: relative;
+    top: -70px;
+    left: 180px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.produto-container .informacoes-produto {
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.produto-container .informacoes-produto h5 {
+    font-size: 12px;
+    color: #7A7A7A;
+    margin: 0;
+}
+
+.produto-container .informacoes-produto .preco-de {
+    font-size: 12px;
+    color: #7A7A7A;
+}
+
+.produto-container .informacoes-produto h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.produto-container .informacoes-produto .preco-ou {
+    font-size: 11px;
+    color: #7A7A7A;
+    margin: 0;
+}
+
+.botao-comprar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    width: 125px;
+    height: 32px;
+
+    background: #00E676;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.botao-comprar img {
+ margin-right: 10px;
+}
+
+#mais-vendidos-container {
+    display: flex;
+    flex: 1;
+}
+
+#seta-mais-vendidos-proximo {
+    transform: rotate(180deg);
+}
+
+#newsletter-container {
+    background: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+}
+
+#newsletter-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#newsletter-container button {
+    height: 48px;
+    width: 140px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 14px;
+    background: #E9BF33;
+    border: none;
+    outline: none;
+}
+
+#newsletter-container input {
+    height: 48px;
+    width: 280px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #585858;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background: #000;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+footer .titulo-container h3 {
+    color: #FFF;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+footer #contato {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #contato button {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background: #E9BF33;
+    width: 195px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+footer #contato button img {
+    margin-right: 6px;
+}
+
+footer #criadores {
+    display: flex;
+}
+
+footer #criadores div {
+    margin-right: 20px;
+}
+
+footer #criadores p {
+    color: #E9BF33;
+}
